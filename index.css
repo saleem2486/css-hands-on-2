@@ -1,0 +1,97 @@
+.div1{
+border: 5px solid rgb(175, 12, 12);
+display: inline-block;
+width: 300px;
+height: 45px;
+color: white;
+background-color: black;
+border-radius: 25px;
+text-align: center;
+padding: 10px;
+
+
+}
+#child1{
+position: absolute;
+right: 10px
+
+
+}
+#child2{
+margin-left: -40px;
+}
+body{
+    background-image: url(./wood-background-wallpaper-hd-123273980.jpg);
+
+
+}
+.circle{
+width: 300px;
+height: 300px;
+border-radius: 50%;
+border: 5px solid rgb(84, 68, 68);
+background-color: rgb(10, 102, 10);
+position: relative;
+top: 100px;
+left: 100px;
+
+
+}
+.contentc{
+position: relative;
+left: 1px;
+top: 100px;
+text-decoration: underline;
+text-align: center;
+font-size: larger;
+display: inline-block;
+}
+.formb{
+border: 5px dashed red; 
+width: 300px;
+background-color: white;
+position: absolute;
+right: 150px;
+top: 150px;
+}
+.formc{
+text-align: center;
+color: red;
+}
+.menu{
+    border: 5px solid rgb(193, 44, 44);
+    display: inline-block;
+    width: 300px;
+    height: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    text-align: center;
+    padding: 20px;
+position: absolute;
+top: 700px;
+right: 400px;
+
+}
+.cantainer{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+position: absolute;
+top: 800px;
+justify-content: space-evenly;
+
+}
+.box{
+border: 5px solid green;
+background-color: skyblue;
+border-radius: 25px;
+width: 300px;
+text-align: center;
+margin: 20px;
+
+}
+a{
+text-decoration: none;
+color: white;
+}
